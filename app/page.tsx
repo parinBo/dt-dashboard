@@ -4,10 +4,10 @@ import Link from 'next/link';
 import 'app/ui/global.css'
 import styles from '@/app/ui/home.module.css';
 import clsx from 'clsx';
-import { lusitana } from './ui/font';
+import { lusitana } from '@/app/ui/font';
 import Image from 'next/image';
 
-export  function InvoiceStatus({ status }: { status: string }) {
+  function InvoiceStatus({ status }: { status: string }) {
   return (
     <span
       className={clsx(
